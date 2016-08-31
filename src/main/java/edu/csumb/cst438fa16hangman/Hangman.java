@@ -1,4 +1,4 @@
-package edu.csumb.cst438fa16.slassen;
+package edu.csumb.cst438fa16hangman;
 
 public class Hangman {
     private String word;
