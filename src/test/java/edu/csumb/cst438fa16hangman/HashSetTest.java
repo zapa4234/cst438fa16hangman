@@ -9,19 +9,19 @@ import org.junit.Test;
 public class HashSetTest {
     @Test
     public void testInitiallyEmpty() {
-	HashSet<String> hset = new HashSet<String>();
+	HashSet<String> hset = new HashSet<>();
 	assertTrue(hset.isEmpty());
     }
 
     @Test
     public void testInitiallyEmptyIterator() {
-	HashSet<String> hset = new HashSet<String>();
+	HashSet<String> hset = new HashSet<>();
 	assertFalse(hset.iterator().hasNext());
     }
 
     @Test
     public void testFirstInSingletonSet() {
-	HashSet<String> hset = new HashSet<String>();
+	HashSet<String> hset = new HashSet<>();
 	hset.add("one");
 	String first = hset.iterator().next();
 	assertTrue(first.equals("one"));
@@ -29,7 +29,7 @@ public class HashSetTest {
 
     @Test
     public void testFirstInSingletonSet_withAssertEquals() {
-	HashSet<String> hset = new HashSet<String>();
+	HashSet<String> hset = new HashSet<>();
 	hset.add("one");
 	String first = hset.iterator().next();
 	assertEquals("one", first);
@@ -37,7 +37,7 @@ public class HashSetTest {
 
     @Test
     public void testFirstInSingletonSet_withAssertThat() {
-	HashSet<String> hset = new HashSet<String>();
+	HashSet<String> hset = new HashSet<>();
 	hset.add("one");
 	String first = hset.iterator().next();
 	assertThat("one", equalTo(first));
@@ -45,7 +45,7 @@ public class HashSetTest {
 
     @Test
     public void testFirstBelongs() {
-	HashSet<String> hset = new HashSet<String>();
+	HashSet<String> hset = new HashSet<>();
 	hset.add("1st");
 	hset.add("2nd");
 	String first = hset.iterator().next();
