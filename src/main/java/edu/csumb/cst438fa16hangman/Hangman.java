@@ -1,8 +1,5 @@
 package edu.csumb.cst438fa16.slassen;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class Hangman {
     private String word;
 
