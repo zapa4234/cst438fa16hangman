@@ -4,7 +4,7 @@ For the CSUMB course CST438, Fall 2016.
 ## Reading
 Read the first 4 chapters (Part 1) of the book Pragmatic Unit Testing in Java 8 with JUnit.
 
-See the [commit history](../commits/master) of this repository to see how it was generated
+See the [commit history](https://github.com/sorenlassen-csumb/cst438fa16hangman/commits/master) of this repository to see how it was generated
 initially with the Maven command:
 
     mvn -B archetype:generate \
@@ -22,7 +22,7 @@ HINT 1: Follow the directions in the JUnit with Maven note to upgrade the projec
 (e.g. version 4.11 used in the book).
 
 HINT 2: If you run an older version of Java than Java 8, you need to roll back the changes to
-HashSetTest.java in [this commit](../commit/115e7338).
+HashSetTest.java in [this commit](https://github.com/sorenlassen-csumb/cst438fa16hangman/commit/115e7338).
 
 ## Exercise 2
 Write JUnit unit tests for the Hangman class.
